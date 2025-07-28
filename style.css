@@ -15,11 +15,11 @@ body, html{
 
 nav{
     display: flex;
+
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    /* background-color: red; */
-    padding: 8px 0px;
+    padding: 10px 0px;
     height: 50px;
     box-shadow: 5px 10px 30px rgba(255, 0, 0, 0.3);
     width: 100%;
@@ -35,34 +35,34 @@ nav{
 .logo h3{
     display: none;
 }
-
-nav ul{
+nav ul {
     display: flex;
-    list-style: none;
-    gap: 1rem;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    gap: 30px;
+    position: relative;
     
 }
 
 nav ul li a{
-  font-family: 'Inter', sans-serif;
-    height: 40px;
-    line-height: 43px;
-    padding: 0px 15px;
-    font-size: 0.8em;
     color: white;
-    text-decoration: none;
+    font-size: 20px;
     text-transform: uppercase;
-    font-weight:bold;
-    letter-spacing: 2px;
-    display: flex;
+    box-shadow: 2px 5px 30px rgba(255, 0, 0, 0.7);
+    padding: 10px 10px;
+    text-decoration: none;
     
 }
 
 nav ul li:hover{
-    box-shadow: 5px 10px 30px rgba(208, 49, 11, 0.9) ;
-    border-bottom: solid 2px #fff;
+        padding-bottom: 10px;
+
+    border-bottom: solid 2px #ff0000;
+
+}
+.active{
+    border-bottom: solid 2px #ff0000;
 
 }
 .active{
@@ -95,36 +95,41 @@ nav ul li:hover{
 .toggle-target-expanded {display: block;}
 
 
-nav ul{
-    display: inline-block;
+nav ul {
+    display: flex;
+    padding-top: 30%;
+    gap: 600px;
     position: absolute;
     top: 70px;
     right: 0;
     left: 0;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.7);
     height: 100vh;
-    width: 100%;
-    /* z-index: 2; */
-    
-
+    z-index: 2;
    
+
 }
 
-nav ul li{
-    width: fit-content;
-    padding: 5px 10px;
-    text-align: center;
+nav ul{
 }
+
+nav  ul li {
+    margin-top: 20px;
+}
+
 nav ul li a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: black;
+    /* padding: 25px; */
     font-weight: bold;
 
+}
+
+nav ul li:hover{
+    color: rgb(179, 118, 118);
+    
 }
 
 .toggle-btn img{
