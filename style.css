@@ -309,5 +309,10 @@ nav ul li:hover{
 .text-hero h1{
     text-align: center;
 }
+
+.text-hero p{
+    font-size: 17px;
+}
+
     
 }
