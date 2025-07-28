@@ -172,7 +172,7 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
     flex-direction: row;
     padding-bottom: 20px;
 }
@@ -182,7 +182,8 @@ nav ul li:hover{
     display: flex;
     flex-basis: 40%;
     justify-content: center;
-    height: auto;
+    height: 50vh;
+    /* background-color: pink; */
     flex-direction: column;
     text-align: justify;
     padding:0px 10px;
@@ -194,14 +195,18 @@ nav ul li:hover{
 
 .image-hero{
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 45%;
     max-height: 100vh;
     order: 2;
+    margin-bottom: 5%;
 }
 .image-hero img{ 
     max-width: 100%;
     width: 95%;
-    height: auto;}
+    height: auto;
+    border-radius: 50%;
+
+}
 
 
 #about-section{
