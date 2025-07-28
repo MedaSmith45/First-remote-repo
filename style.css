@@ -144,7 +144,7 @@ nav ul li a{
 
 #hero-section{
     max-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@ nav ul li a{
     display: flex;
     flex-basis: 40%;
     justify-content: center;
-    max-height: 80vh;
+    height: 80vh;
     flex-direction: column;
     text-align: justify;
     padding: 2rem;
