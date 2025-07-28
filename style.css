@@ -182,9 +182,11 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
     flex-direction: row;
     padding-bottom: 20px;
+    padding-top: 30px;
+    
 }
 
 .text-hero{
@@ -197,7 +199,7 @@ nav ul li:hover{
     flex-direction: column;
     text-align: justify;
     padding:0px 10px;
-    gap: 2rem;
+    gap: 1rem;
     /* margin-top: 10%; */
     /* margin: auto; */
     order: 1;
