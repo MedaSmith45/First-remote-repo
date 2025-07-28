@@ -5,6 +5,16 @@ margin: 0;
 padding: 0;
 
 }
+p {
+  letter-spacing: 0.3px;      
+  word-spacing: 0.5px;          
+  max-width: 700px;            
+  margin: auto;                 
+  padding: 0 1rem;            
+   hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 
 
 body, html{
@@ -253,6 +263,9 @@ nav ul li:hover{
 .text-hero p{
     font-size: 18px;
     font-family: 'Lora', sans serif;
+      text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;   /* Smoother font on Mac */
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 /* Hero section Responssive */
