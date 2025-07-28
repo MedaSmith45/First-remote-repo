@@ -278,7 +278,8 @@ nav ul li a{
 }
 
 #hero-section {
-    gap: 2rem;
+    gap: 4rem;
+    height: auto;
 }
 
 .text-hero h1{
