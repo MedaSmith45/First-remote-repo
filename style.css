@@ -239,6 +239,7 @@ nav ul li a{
     order: 1;
     /* margin: none; */
     height: auto;
+    padding-bottom: 20px;
     
   }
   .text-hero {
