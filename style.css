@@ -1,0 +1,255 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff4f9;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0px;
+    height: 50px;
+    box-shadow: 5px 10px 30px rgba(255, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.logo{
+    color: #fff;
+    font-size: 15px;
+}
+.logo h3{
+    display: none;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    position: relative;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 5px 30px rgba(255, 0, 0, 0.7);
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
+
+nav ul li:hover{
+        padding-bottom: 10px;
+
+    border-bottom: solid 2px #ff0000;
+
+}
+.active{
+    border-bottom: solid 2px #ff0000;
+
+}
+.toggle-btn {display: none;}
+
+
+.toggle-menu {
+    display: none;
+}
+
+.toggle-menu img
+{
+    width: 35px;
+}
+
+.toggle-btn{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width:768px){
+.toggle-btn-visible {display: block;}
+.toggle-target-hidden {display: none;}
+.toggle-target-expanded {display: block;}
+
+
+nav ul {
+    display: flex;
+    padding-top: 30%;
+    gap: 600px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100vh;
+    z-index: 2;
+   
+
+}
+
+nav ul li a{
+    color: black;
+    /* padding: 25px; */
+    font-weight: bold;
+
+}
+
+nav ul li:hover{
+    color: rgb(179, 118, 118);
+    
+}
+
+
+.toggle-btn img{
+    width: 130%;
+}
+
+}
+
+@media  screen and (max-width:910px) {
+    nav ul li a{
+        font-size: 18px;
+       
+        box-shadow: none;
+    }
+    nav ul li{
+        box-shadow: none;
+    }
+    .logo h2{
+        display: none;
+    
+    }
+    .logo h3{
+        display: block;
+        font-size: 20px;
+    }
+    .active{
+        border-bottom: none;
+    }
+}
+
+#hero-section{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.text-hero{
+    padding-top: 10%;
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 80vh;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2rem;
+    gap: 2rem;
+    /* background-color: #ff0000; */
+    margin-top: 10%;
+    order: 1;
+}
+
+.image-hero{
+    display: flex;
+    flex-basis: 50%;
+    min-height: 100vh;
+    order: 2;
+    /* background-color: #ff0000; */
+}
+.image-hero img{ 
+    max-width: 100%;
+    width: 95%;
+    height: auto;}
+
+
+#about-section{
+    background-color: black;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.text-hero h1{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    text-align: left;
+}
+.text-hero h2{
+    font-size: 2.3rem;
+    text-align: left;
+}
+.text-hero h1 span{
+    text-transform: uppercase;
+    color: red;
+}
+#hero-section button{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    border: none;
+    width: 20%;
+    height: 40px;
+    background-color: #ff0000;
+    color: white;
+    border-bottom:solid black 4px;
+    border-radius: 10px;
+    /* font-size: 15px; */
+    /* font-size: clamp(14px, 2vw, 24px); */
+    font-size: clamp(10px, 2vw, 15px);
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 5px 10px 30px rgba(0,0, 0, 0.9);
+    /* margin-top: 10%; */
+}
+
+.text-hero h2 span{
+    color: purple;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.text-hero p{
+    font-size: 18px
+}
+@media screen  and (max-width:798px){
+    #hero-section{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: none;
+    }
+
+  .image-hero {
+    padding-left: 5%;
+    order: 1;
+    
+  }
+  .text-hero {
+    order: 2;
+  }
+
+
+}
