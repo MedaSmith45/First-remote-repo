@@ -250,6 +250,15 @@ nav ul li a{
     height: auto;
     border-radius: 350px;
   }
-
-
+}
+/* Responssive for phone */
+@media screen and (max-width:768px) {
+    .text-hero h1{
+        font-size: 2.0rem;
+    } 
+    .text-hero h2{
+    font-size:2.0rem;
+    /* text-align: left; */
+}
+    
 }
