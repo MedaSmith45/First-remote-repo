@@ -243,7 +243,7 @@ nav ul li:hover{
     justify-content: center;
     display:flex;
     border: none;
-    width: 20%;
+    width: fit-content;
     height: 40px;
     background-color: #ff0000;
     color: white;
@@ -253,6 +253,7 @@ nav ul li:hover{
     font-weight: 300;
     text-transform: uppercase;
     box-shadow: 5px 10px 30px rgba(0,0, 0, 0.9);
+    padding: 10px 10px;
 }
 
 .text-hero h2 span{
