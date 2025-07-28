@@ -1,26 +1,22 @@
 * {
-padding: 0;
 margin: 0;
-}
+padding: 0;}
 
 
 body, html{
     margin: 0;
     padding: 0;
+     scroll-behavior: smooth;
 }
 
-body{
-    background-color:#fff4f9;
-}
-
+/* NAv bar */
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    /* background-color: #ff000f; */
-    padding: 10px 0px;
+    padding: 8px 0px;
     height: 50px;
     box-shadow: 5px 10px 30px rgba(255, 0, 0, 0.3);
     width: 100%;
@@ -38,33 +34,35 @@ nav{
 }
 nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
-    gap: 30px;
-    position: relative;
+    gap: 1rem;
     
 }
 
 nav ul li a{
+  font-family: 'Inter', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    padding: 0px 15px;
+    font-size: 0.8em;
     color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    box-shadow: 2px 5px 30px rgba(255, 0, 0, 0.7);
-    padding: 10px 10px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 2px;
+    display: flex;
     
 }
 
 nav ul li:hover{
-        padding-bottom: 10px;
-
-    border-bottom: solid 2px #ff0000;
+    box-shadow: 5px 10px 30px rgba(208, 49, 11, 0.9) ;
+    border-bottom: solid 2px #fff;
 
 }
 .active{
-    border-bottom: solid 2px #ff0000;
-
+    box-shadow: 5px 10px 30px rgba(208, 49, 11, 0.9) ;
+    border-bottom: solid 2px white;
+    
 }
 .toggle-btn {display: none;}
 
@@ -83,9 +81,9 @@ nav ul li:hover{
     font-size: 16px;
 }
 
+/* Responssive navbar */
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:950px){
 .toggle-btn-visible {display: block;}
 .toggle-target-hidden {display: none;}
 .toggle-target-expanded {display: block;}
@@ -105,22 +103,13 @@ nav ul {
     background-color: rgba(255, 255, 255, 0.7);
     height: 100vh;
     z-index: 2;
-   
-
 }
 
 nav ul li a{
     color: black;
-    /* padding: 25px; */
     font-weight: bold;
 
 }
-
-nav ul li:hover{
-    color: rgb(179, 118, 118);
-    
-}
-
 
 .toggle-btn img{
     width: 130%;
@@ -150,6 +139,9 @@ nav ul li:hover{
     }
 }
 
+
+/*  Hero section */
+
 #hero-section{
     max-width: 100%;
     min-height: 100vh;
@@ -161,18 +153,17 @@ nav ul li:hover{
 }
 
 .text-hero{
-    padding-top: 10%;
+    /* padding-top: 10%; */
     display: flex;
     flex-basis: 40%;
     justify-content: center;
-    /* align-items: center; */
     min-height: 80vh;
     flex-direction: column;
     text-align: justify;
     padding: 2rem;
     gap: 2rem;
-    /* background-color: #ff0000; */
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin: auto;
     order: 1;
 }
 
@@ -181,7 +172,6 @@ nav ul li:hover{
     flex-basis: 50%;
     min-height: 100vh;
     order: 2;
-    /* background-color: #ff0000; */
 }
 .image-hero img{ 
     max-width: 100%;
@@ -196,12 +186,12 @@ nav ul li:hover{
 }
 
 .text-hero h1{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     text-transform: capitalize;
     text-align: left;
 }
 .text-hero h2{
-    font-size: 2.3rem;
+    font-size:2.4rem;
     text-align: left;
 }
 .text-hero h1 span{
@@ -219,28 +209,26 @@ nav ul li:hover{
     color: white;
     border-bottom:solid black 4px;
     border-radius: 10px;
-    /* font-size: 15px; */
-    /* font-size: clamp(14px, 2vw, 24px); */
     font-size: clamp(10px, 2vw, 15px);
     font-weight: 300;
     text-transform: uppercase;
     box-shadow: 5px 10px 30px rgba(0,0, 0, 0.9);
-    /* margin-top: 10%; */
 }
 
 .text-hero h2 span{
     color: purple;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight:bold;
 }
 .text-hero p{
     font-size: 18px
 }
-@media screen  and (max-width:798px){
+@media screen  and (max-width:950px){
     #hero-section{
         flex-direction: column;
         height: auto;
-        margin-bottom: none;
+        /* margin-bottom: none; */
+        margin: none;
     }
 
   .image-hero {
@@ -250,6 +238,13 @@ nav ul li:hover{
   }
   .text-hero {
     order: 2;
+    margin-top: none;
+  }
+
+  .image-hero img{
+    width: 700px;
+    height: auto;
+    border-radius: 350px;
   }
 
 
