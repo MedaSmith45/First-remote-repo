@@ -229,21 +229,21 @@ nav ul li a{
     #hero-section{
         flex-direction: column;
         height: auto;
-        margin: none;
+        /* margin: none; */
         gap: 2rem;
-        padding: none;
+        /* padding: none; */
     }
 
   .image-hero {
     padding-left: 5%;
     order: 1;
-    margin: none;
+    /* margin: none; */
     height: auto;
     
   }
   .text-hero {
     order: 2;
-    margin: none;
+    /* margin: none; */
     height: auto;
   }
 
@@ -274,7 +274,8 @@ nav ul li a{
   .image-hero{
     height: auto;
     order: 1;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     /* background-color: black; */
     
 }
