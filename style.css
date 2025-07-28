@@ -183,10 +183,10 @@ nav ul li:hover{
     height: 80vh;
     flex-direction: column;
     text-align: justify;
-    padding: 2rem;
+    padding:0px 10px;
     gap: 2rem;
     /* margin-top: 10%; */
-    margin: auto;
+    /* margin: auto; */
     order: 1;
 }
 
