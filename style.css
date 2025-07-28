@@ -227,18 +227,22 @@ nav ul li a{
     #hero-section{
         flex-direction: column;
         height: auto;
-        /* margin-bottom: none; */
         margin: none;
+        gap: 0;
+        padding: none;
     }
 
   .image-hero {
     padding-left: 5%;
     order: 1;
+    margin: none;
+    height: auto;
     
   }
   .text-hero {
     order: 2;
-    margin-top: none;
+    margin: none;
+    height: auto;
   }
 
   .image-hero img{
