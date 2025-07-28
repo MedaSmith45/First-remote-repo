@@ -238,7 +238,7 @@ nav ul li a{
     order: 1;
     /* margin: none; */
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
   }
   .text-hero {
@@ -274,13 +274,13 @@ nav ul li a{
     height: auto;
     order: 1;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     /* background-color: black; */
     
 }
 
 #hero-section {
-    gap: 2rem;
+    gap: 1rem;
     height: auto;
 }
 
