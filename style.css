@@ -351,7 +351,7 @@ nav ul li:hover{
     font-size: 17px;
 }
 
-#hero-section button{
+#hero-section button,.about-btn{
     width: 100px;
     font-weight: bold;
     font-size: 12px;
@@ -436,6 +436,7 @@ nav ul li:hover{
 @media screen and (max-width:1091px){
     #about-section{
         flex-direction: column;
+        padding: 10px 10px;
     }
     #about-section{
         height: auto;
