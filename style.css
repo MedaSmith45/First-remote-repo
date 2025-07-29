@@ -30,13 +30,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    padding: 10px 0px;
+    padding: 7px 0px;
     height: 50px;
     box-shadow: 5px 10px 30px rgba(255, 0, 0, 0.3);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    border-radius: 5px;
     
 }
 .logo{
