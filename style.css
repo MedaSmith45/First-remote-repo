@@ -204,7 +204,7 @@ nav ul li:hover{
     /* margin-top: 10%; */
     /* margin: auto; */
     order: 1;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .image-hero{
@@ -213,7 +213,7 @@ nav ul li:hover{
     max-height: 100vh;
     order: 2;
     margin-bottom: 5%;
-    background-color: black;
+    /* background-color: black; */
     justify-content: center;
     align-items: center;
 }
