@@ -427,7 +427,11 @@ nav ul li:hover{
 
 @media  screen and (max-width:768px) {
     .about-for-phone{
-        display: block;
+        /* display: block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
     }
     .about-text{
         display: none;
