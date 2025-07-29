@@ -345,5 +345,9 @@ nav ul li:hover{
     font-size: 17px;
 }
 
-    
+#hero-section button{
+    width: 100px;
+    font-weight: bold;
+    font-size: 12px;
+}   
 }
