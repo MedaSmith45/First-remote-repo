@@ -375,20 +375,18 @@ nav ul li:hover{
 .about-pic{
     flex-basis: 50%;
     /* background-color:  #9e0000; */
-    height: fit-content;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     /* z-index: 2; */
     background-color: white;
 }
-.about-pic img {
-    /* background-color: white; */
-}
+
 .about-text{
     flex-basis: 50%;
     background-color: white;
-    height: fit-content;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
