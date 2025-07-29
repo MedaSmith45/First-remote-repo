@@ -8,7 +8,7 @@ padding: 0;
 p {
   letter-spacing: 0.3px;      
   word-spacing: 0.5px;          
-  max-width: 700px;            
+  /* max-width: 700px;             */
   margin: auto;                 
   padding: 0 0.8rem;            
    hyphens: auto;
@@ -237,7 +237,7 @@ nav ul li:hover{
     text-transform: uppercase;
     color: red;
 }
-#hero-section button{
+#hero-section button,.about-btn{
     align-items: center;
     justify-content: center;
     display:flex;
@@ -254,7 +254,7 @@ nav ul li:hover{
     box-shadow: 5px 10px 30px rgba(0,0, 0, 0.9);
     padding: 10px 10px;
 }
-#hero-section button:hover{
+#hero-section button:hover,.about-btn:hover{
     background-color: #9e0000;
     border-bottom:  solid 2px white;
     padding: 11px 12px;
@@ -358,30 +358,58 @@ nav ul li:hover{
 
 #about-section{
     background-image: url("https://image-cdn.tuchong.com/weili/image/l/1926156862299701259.jpeg");
-    height: 100vh;
+    min-height: 100vh;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    gap: 8%;
+    gap: 20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     /* z-index: 1; */
-    padding: 10px 10px;
+    padding: 40px 50px;
 }
 
 .about-pic{
-    flex-basis: 45%;
-    background-color:  #9e0000;
-    height: 90vh;
+    flex-basis: 20%;
+    /* background-color:  #9e0000; */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* z-index: 2; */
 }
-.about-text{
-    flex-basis: 45%;
+.about-pic img {
     background-color: white;
-    height: 90vh;
-    /* z-index: 2; */
+}
+.about-text{
+    flex-basis: 80%;
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 30px;
+    gap: 1rem;
+}
 
+.about-text h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.about-text p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Lora', sans-serif;
+}
+
+@media screen and (max-width:1091px){
+    #about-section{
+        flex-direction: column;
+    }
+    
 }
