@@ -452,6 +452,14 @@ nav ul li:hover{
         align-items: center;
         padding: 5px 5px;
     }
+    .about-for-phone h1{
+        font-family: 'Lora',sans-serif;
+    }
+
+    .about-for-phone p{
+        font-family: 'Lora', sans-serif;
+        text-align: justify;
+    }
     .about-text{
         display: none;
         flex-basis: 30%;
