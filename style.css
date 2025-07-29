@@ -222,11 +222,7 @@ nav ul li:hover{
 }
 
 
-#about-section{
-    background-color: black;
-    height: 100vh;
-    max-width: 100%;
-}
+
 
 .text-hero h1{
     font-size: 2.4rem;
@@ -356,4 +352,15 @@ nav ul li:hover{
     font-weight: bold;
     font-size: 12px;
 }   
+}
+
+/* About Section */
+
+#about-section{
+    background-image: url("https://image-cdn.tuchong.com/weili/image/l/1926156862299701259.jpeg");
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
