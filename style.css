@@ -370,7 +370,7 @@ nav ul li:hover{
     display: flex;
     gap: 20px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 10px;
 }
@@ -383,15 +383,29 @@ nav ul li:hover{
     justify-content: center;
     align-items: center;
     background-color: white;
+    border-radius: 5px;
 }
 
 .about-pic img{
     max-width: 100%;
     min-width: 30%;
+    /* border-radius: 5px; */
 }
 
 
-.about-text,.about-for-phone{
+.about-text{   flex-basis: 60%;
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding:20px 30px; */
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.about-for-phone{
     flex-basis: 40%;
     background-color: white;
     height: auto;
@@ -401,6 +415,7 @@ nav ul li:hover{
     flex-direction: column;
     /* padding:20px 30px; */
     gap: 1rem;
+    border-radius: 5px;
 }
 
 .about-text h1{
