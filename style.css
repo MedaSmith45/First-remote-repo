@@ -363,4 +363,25 @@ nav ul li:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    gap: 8%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+    padding: 10px 10px;
+}
+
+.about-pic{
+    flex-basis: 45%;
+    background-color:  #9e0000;
+    height: 90vh;
+    /* z-index: 2; */
+}
+.about-text{
+    flex-basis: 45%;
+    background-color: white;
+    height: 90vh;
+    /* z-index: 2; */
+
 }
