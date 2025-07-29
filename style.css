@@ -271,6 +271,13 @@ nav ul li:hover{
   -moz-osx-font-smoothing: grayscale; 
 }
 
+.text-hero p{
+    font-family: 'Lora', sans-serif;
+}
+.text-hero p span {
+    font-style: italic;
+}
+
 /* Hero section Responssive */
 @media screen  and (max-width:950px){
     #hero-section{
