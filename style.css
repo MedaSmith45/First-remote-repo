@@ -422,11 +422,13 @@ nav ul li:hover{
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: underline;
+     margin: 20px 0;
 }
 .about-text p{
     font-size: 16px;
     text-align: justify;
     font-family: 'Lora', sans-serif;
+   
 }
 
 
@@ -439,15 +441,19 @@ nav ul li:hover{
     text-transform: uppercase;
     text-decoration: underline;
 }
+
 @media screen and (max-width:1091px){
     #about-section{
         flex-direction: column;
-        padding: 10px 10px;
+        padding: 20px 20px;
     }
     #about-section{
         height: auto;
     }
-    
+
+   .about-pic{
+    max-width: 60%;
+   } 
 }
 
 @media  screen and (max-width:768px) {
