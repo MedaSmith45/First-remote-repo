@@ -403,10 +403,11 @@ nav ul li:hover{
     /* padding:20px 30px; */
     gap: 0.5rem;
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 .about-for-phone{
-    flex-basis: 40%;
+    flex-basis: 50%;
     background-color: white;
     height: auto;
     display: flex;
@@ -416,6 +417,7 @@ nav ul li:hover{
     /* padding:20px 30px; */
     gap: 1rem;
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 .about-text h1{
@@ -423,6 +425,7 @@ nav ul li:hover{
     font-weight: bold;
     text-decoration: underline;
      margin: 20px 0;
+     
 }
 .about-text p{
     font-size: 16px;
