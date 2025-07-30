@@ -443,6 +443,7 @@ nav ul li:hover{
     margin-top: 10px;
     text-transform: uppercase;
     text-decoration: underline;
+    
 }
 
 @media screen and (max-width:1091px){
@@ -469,6 +470,7 @@ nav ul li:hover{
     }
     .about-for-phone h1{
         font-family: 'Lora',sans-serif;
+        font-size: 15px;
     }
 
     .about-for-phone p{
@@ -483,4 +485,11 @@ nav ul li:hover{
     .about-pic img {
     width: 400px;
 }
+}
+
+
+/* Portfolio Section */
+#portfolio-section{
+    width: 100%;
+    height: 100vh;
 }
