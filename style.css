@@ -433,6 +433,10 @@ nav ul li:hover{
 .about-for-phone{
     display: none;
 }
+
+.about-for-phone h1{
+    text-transform: uppercase;
+}
 @media screen and (max-width:1091px){
     #about-section{
         flex-direction: column;
