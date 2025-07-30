@@ -437,6 +437,7 @@ nav ul li:hover{
 .about-for-phone h1{
     margin-top: 10px;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 @media screen and (max-width:1091px){
     #about-section{
