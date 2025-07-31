@@ -512,14 +512,13 @@ nav ul li:hover{
 
 
 .practice-container{
-    width: 90%;
+    width: 80%;
     height: 90vh ;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     gap: 15px;
-    padding: 10px 10px;
-    /* justify-items: center; */
-    /* align-items: center; */
+    padding: 5px 5px;
+  
     justify-content: center;
 
 }
@@ -530,5 +529,11 @@ nav ul li:hover{
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   /* gap: 15px; */
+}
+
+@media screen and (max-width:768px) {
+    #practice{
+        height: auto;
+    }
+    
 }
