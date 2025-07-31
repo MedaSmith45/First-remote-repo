@@ -606,7 +606,12 @@ nav ul li:hover{
     text-align: justify;
    
 }
-
+.picture-placeholder{
+    margin: 1rem 0;
+    width: 20rem;
+    height: 15rem;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+}
 
 @media screen and (max-width:768px) {
     #practice{
@@ -626,6 +631,8 @@ nav ul li:hover{
     
 }
 
+
+
 @media screen and (max-width:1060px) {
     #practice{
         height: auto;
@@ -639,6 +646,15 @@ nav ul li:hover{
 
 
 /* Trying box-shadow animation */
+
+
+/* the width of pictures for smaller screen */
+@media screen and (max-width:474px) {
+    .picture-placeholder{
+        width: 16rem;
+    }
+    
+}
 
 
 
