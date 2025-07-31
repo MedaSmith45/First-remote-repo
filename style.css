@@ -5,6 +5,15 @@ margin: 0;
 padding: 0;
 
 }
+
+
+:root{
+    --gradient:linear-gradient(
+        90deg,
+        #ffffff,
+        #1a1a1a,
+    );
+}
 p {
   letter-spacing: 0.3px;      
   word-spacing: 0.5px;          
@@ -510,10 +519,17 @@ nav ul li:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
-    /* background-color: #1a1a1a; */
-    background-image: radial-gradient(#1a1a1a 60%, white);
+    background-color: #1a1a1a;
+    /* background-color: #333333; Main grey background */
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.6) 0%, transparent 5%),
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.6) 0%, transparent 5%),
+    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.6) 0%, transparent 5%),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.6) 0%, transparent 5%);
+  background-repeat: no-repeat;
+
 }
  /* Title my projects */
  .project-title{
@@ -523,20 +539,21 @@ nav ul li:hover{
     margin: 1rem 0;
     color: #ff0000;
     font-family: 'Lora', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     box-shadow: 5px 10px 30px rgba(255,255, 255, 0.9);
     background-color: transparent;
  }
 
 .practice-container{
     width: 80%;
-    height: 90vh ;
+    min-height: 90vh ;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     gap: 15px;
-    padding: 5px 5px;
+    padding: 1rem 0.6rem;
   
     justify-content: center;
+    
 
 }
 
@@ -561,6 +578,16 @@ nav ul li:hover{
 
 @media screen and (max-width:768px) {
     #practice{
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width:1060px) {
+    #practice{
+        height: auto;
+    }
+    .practice-container{
         height: auto;
     }
     
