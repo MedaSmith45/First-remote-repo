@@ -550,12 +550,13 @@ nav ul li:hover{
     color: #ff0000;
     font-family: 'Lora', sans-serif;
     font-weight: 900;
-    box-shadow: 5px 10px 30px rgba(255,255, 255, 0.9);
+    /* box-shadow: 5px 10px 30px rgba(255,255, 255, 0.9); */
     background-color: transparent;
     /* background: transparent; */
     padding: 0.3rem 0.3rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+     animation: glow 2s infinite ease-in-out;
  }
 
  .project-title h1{
@@ -592,11 +593,12 @@ nav ul li:hover{
     font-family: 'lora', sans-serif;
     text-transform: uppercase;
     background-color: #1a1a1a;
-     border: solid 1px black;
+
      color: #ff0000;
      padding: 0.3rem 0.3rem;
      border-radius: 5px;
-     border: solid 1px rgba(red, 0, 0, 0.3);
+     border: solid 1px rgba(255, 0, 0, 0.3);
+     font-weight: 900;
 }
 .child p{
     font-size: 1.06rem;
@@ -633,4 +635,21 @@ nav ul li:hover{
     }
    
     
+}
+
+
+/* Trying box-shadow animation */
+
+
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  }
 }
