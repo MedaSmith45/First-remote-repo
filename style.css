@@ -430,15 +430,24 @@ nav ul li:hover{
     padding-bottom: 20px;
 }
 
-.about-text h1{
+
+
+.about-story{
     text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: 900;
+    /* text-decoration: underline; */
      margin: 20px 0;
      font-family: 'Lora', sans-serif;
      color: #ff0000;
-     
+     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.9);
+      padding: 0.3rem 0.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: #1a1a1a;
 }
+
+/* .about-text h1{   
+} */
 .about-text p{
     font-size: 16px;
     text-align: justify;
@@ -534,7 +543,7 @@ nav ul li:hover{
  /* Title my projects */
  .project-title{
     text-transform: uppercase;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 1.1rem;
     margin: 1rem 0;
     color: #ff0000;
@@ -542,6 +551,15 @@ nav ul li:hover{
     font-weight: 900;
     box-shadow: 5px 10px 30px rgba(255,255, 255, 0.9);
     background-color: transparent;
+    /* background: transparent; */
+    padding: 0.3rem 0.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+ }
+
+ .project-title h1{
+    background: transparent;
+    /* border: 1px solid rgba(255,255, 255, 0.9); */
  }
 
 .practice-container{
@@ -581,6 +599,9 @@ nav ul li:hover{
     #practice{
         height: auto;
     }
+    .project-title h1{
+        font-size: 18px;
+    }
     
 }
 
@@ -591,5 +612,6 @@ nav ul li:hover{
     .practice-container{
         height: auto;
     }
+    
     
 }
