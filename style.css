@@ -382,13 +382,13 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;
 }
 
 .about-pic img{
-    max-width: 100%;
-    min-width: 30%;
+    max-width: 800px;
+    min-width: 30%; 
     /* border-radius: 5px; */
 }
 
@@ -462,7 +462,6 @@ nav ul li:hover{
 
 @media  screen and (max-width:768px) {
     .about-for-phone{
-        /* display: block; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -480,6 +479,7 @@ nav ul li:hover{
     .about-text{
         display: none;
         flex-basis: 30%;
+        
     }
 
     .about-pic img {
@@ -492,4 +492,43 @@ nav ul li:hover{
 #portfolio-section{
     width: 100%;
     height: 100vh;
+}
+
+
+
+
+
+
+/* Section to practice */
+
+
+#practice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.practice-container{
+    width: 90%;
+    height: 90vh ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 15px;
+    padding: 10px 10px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.child{
+   border:  solid 1px black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* gap: 15px; */
 }
