@@ -590,11 +590,21 @@ nav ul li:hover{
 .child h1{
     font-size: 1.2rem;
     font-family: 'lora', sans-serif;
+    text-transform: uppercase;
+    background-color: #1a1a1a;
+     border: solid 1px black;
+     color: #ff0000;
+     padding: 0.3rem 0.3rem;
+     border-radius: 5px;
+     border: solid 1px rgba(red, 0, 0, 0.3);
 }
 .child p{
     font-size: 1.06rem;
     font-family: 'lora',sans-serif;
+    text-align: justify;
+   
 }
+
 
 @media screen and (max-width:768px) {
     #practice{
