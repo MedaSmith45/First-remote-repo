@@ -566,16 +566,25 @@ nav ul li:hover{
  }
 
 .practice-container{
-    width: 80%;
+    width: 70%;
     min-height: 90vh ;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    gap: 15px;
+    gap: 2rem;
     padding: 1rem 0.6rem;
   
     justify-content: center;
     
 
+}
+.button-container{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    /* padding: 0 2rem; */
+}
+.project-button{
+    margin: 0 0.6rem;
 }
 
 .child{
@@ -609,7 +618,7 @@ nav ul li:hover{
 }
 .picture-placeholder{
     margin: 1rem 0;
-    width: 20rem;
+    width: 18rem;
     height: 15rem;
     border: solid 2px rgba(0, 0, 0, 0.2);
 }
