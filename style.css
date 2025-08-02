@@ -619,7 +619,7 @@ nav ul li:hover{
 .picture-placeholder{
     margin: 1rem 0;
     width: 18rem;
-    height: 15rem;
+    height: 20rem;
     border: solid 2px rgba(0, 0, 0, 0.2);
 }
 .picture-placeholder img{
