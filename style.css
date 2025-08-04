@@ -730,7 +730,7 @@ nav ul li:hover{
 .wrapper{
     width: 80%;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 310px;
     height: 60vh;
     /* height:fit-content; */
     background-color:white;
