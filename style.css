@@ -21,7 +21,6 @@ html {
 p {
   letter-spacing: 0.3px;
   word-spacing: 0.5px;
-  margin: auto;
   padding: 0 0.8rem;
   hyphens: auto;
   word-wrap: break-word;
@@ -193,7 +192,7 @@ nav ul li:hover,
   justify-content: center;
   height: 50vh;
   text-align: justify;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   gap: 1rem;
   order: 1;
 }
