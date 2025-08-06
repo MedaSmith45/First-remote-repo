@@ -43,7 +43,7 @@ nav {
   background-color: #003366;
   padding: 7px 0;
   height: 50px;
-  box-shadow: 5px 10px 30px #A52A2A;
+  /* box-shadow: 5px 10px 30px #A52A2A; */
   width: 100%;
   position: fixed;
   top: 0;
@@ -235,7 +235,7 @@ nav ul li:hover {
   font-size: 18px;
 }
 
-/* Buttons (Hero, About, Projects) */
+/* Buttons (Hero) */
 #hero-section button{
   color: white;
   background-color: #003366;
@@ -249,8 +249,7 @@ nav ul li:hover {
 
 #hero-section button:hover{
   background-color:  #003366;
-  /* border-bottom: 2px solid white; */
-  /* padding: 11px 12px; */
+ 
 }
 
 /* ================== Responsive Hero Section ================== */
