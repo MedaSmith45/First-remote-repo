@@ -252,8 +252,8 @@ nav ul li:hover,
 
 #hero-section button:hover{
   background-color: #9e0000;
-  border-bottom: 2px solid white;
-  padding: 11px 12px;
+  /* border-bottom: 2px solid white; */
+  /* padding: 11px 12px; */
 }
 
 /* ================== Responsive Hero Section ================== */
@@ -355,6 +355,9 @@ nav ul li:hover,
 }
 
 .wrapper header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 22px;
   font-weight: 600;
   padding: 20px 30px;
@@ -465,6 +468,7 @@ form .message textarea::-webkit-scrollbar {
 form .button-area {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 25px 0;
 }
 
